@@ -9,7 +9,7 @@ active = true  # Activate this widget? true/false
 weight = 80  # Order that this section will appear.
 
 title = "Featured Publications"
-subtitle = ""
+subtitle = "[See all publications](publication)"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
@@ -65,4 +65,8 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
+
+[design.spacing]
+ # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["25px", "0", "50px", "0"]
 +++

@@ -7,7 +7,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 90  # Order that this section will appear.
 
-title = "Recent Publications"
+title = "Publications"
 subtitle = ""
 
 [content]
@@ -37,7 +37,7 @@ subtitle = ""
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 2
+  view = 4
   
 [design.background]
   # Apply a background color, gradient, or image.
@@ -65,6 +65,10 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
+
+[design.spacing]
+ # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["25px", "0", "50px", "0"]
 +++
 
 {{% alert note %}}

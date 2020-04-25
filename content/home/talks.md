@@ -4,7 +4,7 @@
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
 title = "Recent & Upcoming Talks"
@@ -67,4 +67,9 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
+
+[design.spacing]
+ # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["25px", "0", "50px", "0"]
+
 +++
